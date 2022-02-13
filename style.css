@@ -44,6 +44,11 @@ body {
     margin: 15px 0 10px;
 }
 
+.page__container h1 a {
+    color: var(--white);
+    text-decoration: none;
+}
+
 .page__container .description {
     margin: 0;
     font-weight: 400;
@@ -101,6 +106,8 @@ body {
 }
 
 .author .avatar {
+    border: 1px solid white;
+    border-radius: 50px;
     max-height: 40px;
     max-width: 40px;
     margin-right: 10px;
@@ -110,7 +117,18 @@ body {
     color: var(--soft-blue);
 }
 
-.author small {
+.author a {
     font-size: 16px;
     color: var(--white);
+    text-decoration: none;
+}
+
+/* Hover Section */
+
+.author a:hover {
+    color: var(--cyan);
+}
+
+.text h1 .link:hover {
+    color: var(--cyan);
 }
