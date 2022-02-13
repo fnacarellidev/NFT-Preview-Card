@@ -50,3 +50,40 @@ body {
     color: var(--soft-blue);
     font-size: 20px;
 }
+
+.price-deadline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eth {
+    display: flex;
+    align-items: center;
+}
+
+.eth .eth-icon {
+    max-height: 18px;
+    max-width: 11px;
+    margin-right: 5px;
+}
+
+.eth .eth-price {
+    color: var(--cyan);
+}
+
+.deadline {
+    display: flex;
+    align-items: center;
+}
+
+.deadline .clock-icon {
+    max-width: 17px;
+    max-height: 17px;
+    margin-right: 5px;
+}
+
+.deadline .due-date {
+    font-weight: 600;
+    color: var(--soft-blue);
+}
