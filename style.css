@@ -24,10 +24,10 @@ body {
 
 .page__container {
     box-sizing: border-box;
-    padding: 20px 20px;
+    padding: 20px 20px 0px 20px;
     background-color: var(--card-bg);
     width: 400px;
-    height: 625px;
+    height: 650px;
     border-radius: 20px;
 }
 
@@ -86,4 +86,31 @@ body {
 .deadline .due-date {
     font-weight: 600;
     color: var(--soft-blue);
+}
+
+.divisor {
+    height: 1px;
+    background-color: var(--soft-blue);
+    border: none;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.author .avatar {
+    max-height: 40px;
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+.author .credits {
+    color: var(--soft-blue);
+}
+
+.author small {
+    font-size: 16px;
+    color: var(--white);
 }
