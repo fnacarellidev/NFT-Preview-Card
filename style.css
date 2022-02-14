@@ -14,6 +14,10 @@ body {
     font-family: var(--font);
 }
 
+.equilibrium {
+    display: block;
+}
+
 .page {
     display: flex;
     height: 100vh;
@@ -54,6 +58,28 @@ body {
     font-weight: 400;
     color: var(--soft-blue);
     font-size: 20px;
+}
+
+.image-wrap { 
+    position: relative; 
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 255, 247, .4);
+    border-radius: 10px;
+    display: none;
+}
+
+.img-overlay .eye {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin: auto;
 }
 
 .price-deadline {
@@ -131,4 +157,8 @@ body {
 
 .text h1 .link:hover {
     color: var(--cyan);
+}
+
+.image-wrap:hover .img-overlay {
+    display: flex;
 }
